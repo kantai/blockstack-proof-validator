@@ -12,10 +12,10 @@ function server () {
   app.use(bodyParser.json())
 
   app.post('/validate', function(req, res, next) {
-    profile = req.body.profile
-    address = req.body.address
-
-    blockstack.validateProofs(profile, address)
+    let profile = req.body.profile
+    let address = req.body.address
+    let username = req.body.username
+    blockstack.validateProofs(profile, address, username)
       .then( proofs => res.send( proofs ) )
   })
 
