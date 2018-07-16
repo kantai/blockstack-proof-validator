@@ -4,10 +4,11 @@
   "description": "Proof validation service",
   "main": "index.js",
   "dependencies": {
-    "blockstack": "^0.13.4",
+    "blockstack": "^17.2.0",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "winston": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
