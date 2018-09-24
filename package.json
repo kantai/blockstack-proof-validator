@@ -4,7 +4,7 @@
   "description": "Proof validation service",
   "main": "index.js",
   "dependencies": {
-    "blockstack": "^17.2.0",
+    "blockstack": "^18.0.4",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",

@@ -1,0 +1,5 @@
+.git
+node_modules
+nginx.config
+.dockerignore
+docker-compose.yaml

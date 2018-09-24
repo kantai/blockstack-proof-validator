@@ -30,9 +30,13 @@ function server () {
       })
   })
 
+  app.get('/validate', function(req, res, next) {
+    res.send(JSON.stringify({status: true}))
+  })
+
   return app
 }
 
 let app = server()
 
-app.listen(5000, 'localhost')
+app.listen(5000, '0.0.0.0')
